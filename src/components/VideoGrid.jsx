@@ -1,10 +1,10 @@
-import vid1 from '/videos/vid1.mp4';
-import vid2 from '/videos/vid2.mp4';
-import vid3 from '/videos/vid3.mp4';
-import vid4 from '/videos/vid4.mp4';
-import vid5 from '/videos/vid5.mp4';
-import vid6 from '/videos/vid6.mp4';
-import vid7 from '/videos/vid7.mp4';
+import vid1 from '../../public/videos/vid1.mp4';
+import vid2 from '../../public/videos/vid2.mp4';
+import vid3 from '../../public/videos/vid3.mp4';
+import vid4 from '../../public/videos/vid4.mp4';
+import vid5 from '../../public/videos/vid5.mp4';
+import vid6 from '../../public/videos/vid6.mp4';
+import vid7 from '../../public/videos/vid7.mp4';
 import { useEffect, useRef, useState } from 'react';
 import '../styles/VideoGrid.css';
 import TextSection from './TextSection';
@@ -96,8 +96,8 @@ const VideoGrid = () => {
   
   return (<>
     <TextSection
-    title="From soulful solo acts to 
-energetic 4-piece band gigs"
+    title="From soulful solo acts to 
+energetic 4-piece band gigs"
   
     bgColor="var(--secondary-bg)"
      />

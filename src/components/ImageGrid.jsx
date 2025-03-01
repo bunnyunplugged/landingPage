@@ -29,12 +29,12 @@ const ImageCard = ({ src, alt, index }) => {
 
 const ImageGrid = () => {
   const images = [
-    { src: '/src/assets/images/image1.jpg', alt: 'Image 1' },
-    { src: '/src/assets/images/image2.jpg', alt: 'Image 2' },
-    { src: '/src/assets/images/image3.jpg', alt: 'Image 3' },
-    { src: '/src/assets/images/image4.jpg', alt: 'Image 4' },
-    { src: '/src/assets/images/image5.jpg', alt: 'Image 5' },
-    { src: '/src/assets/images/image6.jpg', alt: 'Image 6' },
+    { src: '/images/image1.jpg', alt: 'Image 1' },
+    { src: '/images/image2.jpg', alt: 'Image 2' },
+    { src: '/images/image3.jpg', alt: 'Image 3' },
+    { src: '/images/image4.jpg', alt: 'Image 4' },
+    { src: '/images/image5.jpg', alt: 'Image 5' },
+    { src: '/images/image6.jpg', alt: 'Image 6' },
   ];
 
   return (
