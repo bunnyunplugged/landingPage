@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-bg: #111828;
+  --secondary-bg: #242424;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-bg);
+  color: white;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 4rem 0;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-carousel {
+  scroll-behavior: smooth;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
